@@ -2,7 +2,7 @@ import face_recognition
 import cv2
 import numpy as np
 
-video_capture = cv2.VideoCapture(0)
+# video_capture = cv2.VideoCapture(0)
 
 # 검색 할 샘플 사진을 로드 후 인코딩
 YUQI_image = face_recognition.load_image_file("C://Users//liboa//Documents//agv_project//YUQI.jpg")
